@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <img src="prof.jpg" alt="Profile Photo" class="profile-photo">
+            <h1 class="main-heading">Passionate Web Developer Crafting Innovative Digital Experiences</h1>
+            <p class="skills">HTML/CSS | JavaScript | React.js | Node.js | UX/UI Design</p>
+            <a href="#projects" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-heading">About Me</h2>
+            <p>Hi, I'm Shahmir Khan, a web developer with a passion for creating user-friendly websites and applications. I hold a BS-CS from National University Of Modern Language and have experience working in Prodigy InfoTech.</p>
+            <h3 class="subheading">Education</h3>
+            <p>BS-CS, National University Of Modern Language, 2024</p>
+            <h3 class="subheading">Professional Experience</h3>
+            <p>Web Developer at Prodigy InfoTech - 1/8/2024</p>
+            <h3 class="subheading">Skills & Certifications</h3>
+            <p>HTML/CSS, JavaScript, React.js, Node.js, UX/UI Design</p>
+            <p>Certifications: Web Developing</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-heading">Projects</h2>
+            <!-- Example Project 1 -->
+            <div class="project">
+                <img src="projects.JPG" alt="Project 1">
+                <h3 class="subheading">Project Title 1</h3>
+                <p>The Dynamic Portfolio Website successfully demonstrates my ability to create a fully functional, aesthetically pleasing web application. It serves as both a professional showcase and a practical example of my skills in modern web development technologies. The project has also been well-received by peers and potential employers, highlighting my capability to handle real-world web development challenges.</p>
+                <a href="https://github.com/ShahmirKhan123456" target="_blank" class="btn">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-heading">Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

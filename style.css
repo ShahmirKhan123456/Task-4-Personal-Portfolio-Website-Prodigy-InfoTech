@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc; /* Fallback background color */
+    background-image: url('https://images.search.yahoo.com/images/view;_ylt=Awr4_euPoc1mbtwSZ12JzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzY2NzlkYTIwMjlhY2M5YTE3NmY5NjNjNDBjMzI2Y2Y5BGdwb3MDNgRpdANiaW5n?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dbackground%2Bimage%2Bof%2Bportofolio%26type%3DE210US91215G91845%26fr%3Dmcafee%26imgurl%3Dhttps%253A%252F%252Fwallpaperaccess.com%252Ffull%252F5651986.jpg%26tab%3Dorganic%26ri%3D6&w=2000&h=1240&imgurl=wallpaperaccess.com%2Ffull%2F5651981.jpg&rurl=https%3A%2F%2Fwallpaperaccess.com%2Fportfolio&size=205.0KB&p=background+image+of+portofolio&oid=6679da2029acc9a176f963c40c326cf9&fr2=&fr=mcafee&tt=Portfolio+Wallpapers+-+Top+Free+Portfolio+Backgrounds+-+WallpaperAccess&b=0&ni=140&no=6&ts=&tab=organic&sigr=MBYKqBqTMnsT&sigb=CspNCZZegXzR&sigi=5zcDstgxhNQF&sigt=TW1hZBYr60S0&.crumb=Ln.KQCd5Lax&fr=mcafee&type=E210US91215G91845'); /* Replace with your image URL */
+    background-size: cover; /* Make sure the background covers the entire screen */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Make the background stay fixed when scrolling */
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Adjusted container to use flexbox for layout */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a slight white background for readability */
+    border-radius: 10px; /* Rounded corners for the container */
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 100px; /* Resized image */
+    height: 100px; /* Resized image */
+    object-fit: cover;
+    margin-bottom: 20px;
+    float: right; /* Positioned image to the right */
+}
+
+.main-heading {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    flex-grow: 1; /* Allow heading to take available space */
+    text-align: left; /* Align text to the left */
+}
+
+.skills {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.section-heading {
+    font-size: 2em;
+    color: #222;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 1.5em;
+    color: #555;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+form {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button.btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+}
